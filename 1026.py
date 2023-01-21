@@ -11,13 +11,13 @@ index = []
 
 for i in range(n) :
   min = 100
-  for j in range(n) :
-    if j in index :
+  for j in range(n) : 
+    if j in index : #b의 최솟값 index를 사용
       continue
-    else :
+    else : 
       if min >= b[j] :
         min = b[j]
-        c= j
-  index.append(c)
+        c= j  #index 저장
+  index.append(c) #배열에 index 추가 
   sum += a[i] * min
 print(sum)
