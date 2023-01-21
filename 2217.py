@@ -9,7 +9,7 @@ for i in range(n) :
 
 array.sort()
 
-#병렬 연결할지 말지
+#병렬 연결
 for i in range(n) :
   if sum < array[i] * (n-i) :
     sum = array[i] * (n-i)
