@@ -1,3 +1,4 @@
+#수들의 합
 n = int(input())
 
 sum1 = 0
